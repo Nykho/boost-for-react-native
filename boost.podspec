@@ -11,9 +11,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "4.0"
   s.osx.deployment_target = "10.6"
-
-  s.source_files = 'boost/*.hpp', 'boost/{config,smart_ptr}/**/*.hpp'
-
   
   s.subspec 'string_algorithms-includes' do |string_algorithms|
     string_algorithms.preserve_paths = 
