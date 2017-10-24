@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name	= "boost"
-  s.version	= "1.63.0"
+  s.version	= "1.63.1"
   s.summary	= "Rene Rivera original boost podspec with ptr_container subspec added."
   s.homepage	= "http://www.boost.org"
   s.license	= { :type => "Boost Software License",
